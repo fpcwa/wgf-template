@@ -1,3 +1,4 @@
+<!-- Include file for all JScript -->
 <!--
 Call Google CDN using API key
 Documentation: http://code.google.com/apis/ajaxlibs/documentation/index.html#jqueryUI
