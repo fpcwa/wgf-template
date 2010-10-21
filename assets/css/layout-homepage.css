@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- TIER1 CONTENT -----*/
+#container-content {
+	font-size: 1.2em;
+	border-bottom: 2px solid #000000;
+}
+#container-content #features, #container-content #highlights {
+	width: 49.99%;
+	float: left;
+}
+#container-content #features {
+	width: 50%;
+	background: #FFFFFF;
+	color: #000000;
+}
+#container-content.tier1b #features, #container-content.tier1b #highlights {
+	width: 33%;
+	float: left;
+}
+#container-content.tier1b #features {
+	width: 66.99%;
+	background: #FFFFFF;/*color: #fff;*/
+}
+#container-content.tier1b #features-col1 {
+	width: 45%;
+	float: left;
+	padding: 10px 10px 10px 20px;
+	margin:0;
+	color: #000;
+}
+#container-content.tier1b #features-col2 {
+	width: 45%;
+	float: left;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	color: #000;
+}
+#container-content.tier1b dl {
+	margin: 0;
+	padding: 0;
+}
+#container-content.tier1b dt {
+	margin: 1em 0 0.25em;
+	padding: 0;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+#container-content.tier1b dd {
+	margin: 0 0 0.25em;
+	padding: 0;
+}
+#container-content.tier1b dd a:hover{
+	text-decoration:none;
+}
+
+/*----- TIER1 CONTENT: FEATURES -----*/
+
+#features #features-first {
+	background: #FFFFFF;
+}
+#features #features-second {
+	background: #FFFFFF;
+}
+#features #features-third {
+	background: #FFFFFF;
+}
+#features .features-image {
+	float: right;
+	margin-left: 1em;
+}
+#features h2 {
+	margin-top: 10px;
+}
+#features p {
+	margin: 0;
+}
+#container-content #features h1 {
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	text-transform: uppercase;
+	background: #009900;
+	color: #FFFFFF;
+}
+#container-content #highlights h1 {
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	text-transform: uppercase;
+	background: #009999;
+	color: #FFFFFF;
+}
+#features #features-first, #features #features-second, #features #features-third {
+	padding: 0px 0 0px 10px;
+	margin: 10px;
+}
+#features #features-first a, #features #features-second a, #features #features-third a {
+	color: #FFFFFF;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+#features #features-first a:hover, #features #features-second a:hover, #features #features-third a:hover {
+	text-decoration: underline;
+}
+/*----- TIER1 CONTENT: highlights -----*/
+
+#container-content #highlights {
+	background: #CCCC00;
+}
+#container-content #highlights dl {
+	margin: 0;
+	padding: 10px 20px;
+}
+#container-content #highlights dl dt, #container-content #highlights dl dd {
+	margin: 0;
+	padding: 0;
+}
+#container-content #highlights dl dt {
+	margin-top: 1em;
+}
+#container-content #highlights dl dt span {
+	font-weight: bold;
+	color: #8B3B2A;
+	text-transform: uppercase;
+}
+#container-content #highlights dl a {
+	text-transform: lowercase;
+	color: #000000;
+	text-decoration: underline;
+}
+#container-content #highlights dl a:hover {
+	color: #0000FF;
+	text-decoration: none;
+}
+/*----- TIER1 CONTENT: FORESTRY FACTS -----*/
+
+.left {
+	float:left;
+	margin:5px;
+}
+.right {
+	float:right;
+	margin:5px;
+}

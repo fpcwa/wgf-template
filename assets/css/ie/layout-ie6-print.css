@@ -1,0 +1,13 @@
+@charset "utf-8";
+#container-content #features #features-col1, #container-content #features #features-col2{
+	width: auto;
+	float: none;
+}
+#container-content #features {
+	background: #F4E8D1;
+	color: #fff;
+}
+
+#container-content {
+	border-bottom: 0px none;
+}

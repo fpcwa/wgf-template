@@ -1,0 +1,24 @@
+@charset "utf-8";
+#container {
+	width: expression(document.body.clientWidth < 962? "960px" : "auto");	
+}
+#container-content {
+	border-bottom: 0px none;
+}
+
+/* IE ONLY */
+* html #layouttable {
+  background:#f4e8d1 top left repeat-y;
+}
+* html #row {
+  background:#f4e8d1 top right repeat-y;
+}
+* html #left {
+  float:left;
+}
+* html #right {
+  float:right;
+}
+* html #middle {
+  float: left;
+}

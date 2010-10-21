@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- TIER2 CONTENT -----*/
+.tier2 #container-content {
+	font-size: 1.2em;
+	/*width: 960px;*/
+	overflow: hidden;
+}
+.tier2 #container-content #wrapper {
+	width: 960px;
+}
+.tier2 #container-content #menu-section {
+	width: 213px;  /* Fixed width to accommodate sectional graphic above menu items */
+	float: left;
+	background-color: #F4E8D1;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.tier2 #container-content #content {
+	float: left;
+	width: 747px;
+	padding: 20px;
+	display: inline;
+	w\idth: 707px;
+}
+.right {
+	float:right;
+	margin:5px;
+}
+
+/*----- TIER2 CONTENT: CONTENT ----- */
+.tier2 #container-content #content > *:first-child {
+	margin-top: 0;
+}
+
+
+/*----- TIER2 CONTENT: RIGHTBOX POSITIONING ----*/
+.tier2 #container-content #wrapper #content #rightbox {
+  background: #FFFFFF;
+  float: right;
+  left: 0px;
+  top: 5px;
+  width: 150px;
+}
+
+.tier2 #container-content #wrapper #content #rightbox_shaded {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+.tier2 #container-content #wrapper #content #rightbox_shaded_large {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.tier2 #rightbox_image_small {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 210px;
+}
+
+.tier2 #rightbox_image {
+  background: #FFFFFF;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+/*----- TIER2 CONTENT: LAYOUTTABLE POSITIONING ----*/
+
+.tier2 #container-content #wrapper #content #layouttable {
+  display: table;
+  width: 100%;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #row {
+  display: table-row;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #left {
+  background: #f4e8d1;
+  display: table-cell;
+  width: 49%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #middle {
+  background: #ffffff;
+  display: table-cell;
+  width: 2%;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #right {
+  background: #f4e8d1;
+  display: table-cell;
+  width: 49%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #row #blank {
+  background: #ffffff;
+  display: table-cell;
+  padding: 8px;
+}

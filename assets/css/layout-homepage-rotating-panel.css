@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- Homepage news rotator -----*/
+#container #news-preview {
+	margin: 1px 0 0;
+	padding: 0;
+	height: 135px;
+	background: #FFFFFF url(../path/to/image.ext) no-repeat top right;  /* Default background */
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#news-preview div div {
+}
+#news-preview h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #000000;
+	margin: 0;
+}
+#news-preview h2 a {
+	color: #000000;
+	text-decoration: none;
+}
+#news-preview h2 a:hover {
+	text-decoration: underline;
+	color: #0000FF;
+}
+#news-preview p {
+	color: #000000;
+	/*width: 300px;*/
+	font-size: 1.2em;
+	margin-top: 2px;
+}
+#news-preview-one, #news-preview-two, #news-preview-three {
+	height: 135px;
+	overflow: hidden;
+	padding: 20px 700px 10px 20px;
+}
+#news-preview-one {
+	background: #FFFFFF url(/assets/images/core/homepage/rotating_panel/filename.ext) no-repeat top right;
+}
+#news-preview-two {
+	background: #FFFFFF url(/assets/images/core/homepage/rotating_panel/filename.ext) no-repeat top right;
+}
+#news-preview-three {
+	background: #FFFFFF url(/assets/images/core/homepage/rotating_panel/filename.ext) no-repeat top right;
+}

@@ -1,0 +1,17 @@
+/*----- TIER2 CONTENT: MENU-SECTION ----- */
+.tier2 #container-content #menu-section {
+	padding-top: 75px;  /* Space for section image */
+}
+.tier2 #container-content #menu-section ul {
+	margin: 0.5em 1em;
+	padding: 0;
+	list-style: none;
+}
+.tier2 #container-content #menu-section ul a {
+	color : #651706;
+	text-decoration : none;
+}
+.tier2 #container-content #menu-section ul a:hover {
+	color : #C94D32;
+	text-decoration : underline;
+}

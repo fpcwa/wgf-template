@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearing {
+	height: 0;
+	clear: both;
+}
+/*----- SKIP LINK -----*/
+#skip {
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+#skip a {
+	margin: 0;
+	padding: 0;
+}
+/*------ PAGE CONTAINER -----*/
+#container {
+	margin: 0px;
+	padding: 0px;
+	min-width: 960px;
+}
+/*----- TIER1 HEADER -----*/
+#container #header {
+	height: 122px;
+	position: relative;
+	overflow: hidden;
+}
+#container #header #leaf {
+	position: absolute;
+	top: 0;
+	right: 288px;
+	width: 318px;
+	height: 122px;
+	background: url(/Assets/images/h02.jpg) no-repeat top right;
+	z-index: 0;
+}
+#container #header #logo-cobrand {
+	z-index: 98;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container #header #logo-cobrand-text {
+	z-index: 98;
+	position: absolute;
+	top: 40px;
+	left: 140px;
+	vertical-align: middle;
+	font-size: 17px;
+}
+#container #header #logo-cobrand-text a:link {
+	text-decoration:none;
+	color:#000000;
+}
+#container #header #logo-cobrand-text a:hover {
+	text-decoration: underline;
+	color: #0000FF;
+}
+#container #header #logo-fpc {
+	/* TIER 2 FPC LOGO */
+	z-index: 98;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container #header #logo-govwa {
+	/* TIER 2 FPC LOGO */
+	z-index: 98;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 141px;
+	height: 122px;
+}
+#container #header #search {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	z-index: 99;
+}
+#container #header #search * {
+	margin: 0 0 0px 0px;
+}
+#container #header #search #search-links {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-align: middle;
+}
+#container #header #search #search-form * {
+	margin: 0 0 2px 2px;
+}
+#container #header #search label {
+	display: none;
+}
+#container #header #search #src_gov {
+	display: none;
+}
+input, textarea, select, option {
+	font-size: 12px;
+}
+.button {
+	font-size: 12px;
+}
+
+/*----- FOOTER -----*/
+
+#container #footer {
+	font-size: 1.2em;
+	position: relative;
+	margin: 1em;
+}
+#container #footer a, #container #footer a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+#container #footer a:hover {
+	text-decoration: none;
+}
+#container #footer p {
+	font: 0.8em Arial, Verdana, sans-serif;
+	text-align: center;
+}
+#container #footer #footer-logos {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container #footer #footer-logos-right {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#container #footer #footer-logos li, #container #footer #footer-logos-right li {
+	margin: 5px;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
