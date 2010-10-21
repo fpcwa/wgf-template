@@ -2,9 +2,6 @@
 /* CSS Document */
 
 /*----- TIER1 CONTENT -----*/
-#container-content {
-	font-size: 1.2em;
-	border-bottom: 2px solid #000000;
 }
 #container-content #features, #container-content #highlights {
 	width: 49.99%;
@@ -21,7 +18,7 @@
 }
 #container-content.tier1b #features {
 	width: 66.99%;
-	background: #FFFFFF;/*color: #fff;*/
+	background: #FFFFFF;/
 }
 #container-content.tier1b #features-col1 {
 	width: 45%;

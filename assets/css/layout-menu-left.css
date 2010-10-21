@@ -8,10 +8,10 @@
 	list-style: none;
 }
 .tier2 #container-content #menu-section ul a {
-	color : #651706;
+	color : #000000;
 	text-decoration : none;
 }
 .tier2 #container-content #menu-section ul a:hover {
-	color : #C94D32;
+	color: #0000FF;
 	text-decoration : underline;
 }
