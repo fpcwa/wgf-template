@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- TIER2 CONTENT: LAYOUTTABLE POSITIONING ----*/
+
+.tier2 #container-content #wrapper #content #layouttable {
+  display: table;
+  width: 100%;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #row {
+  display: table-row;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #left {
+  background: #f4e8d1;
+  display: table-cell;
+  width: 49%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #middle {
+  background: #ffffff;
+  display: table-cell;
+  width: 2%;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #right {
+  background: #f4e8d1;
+  display: table-cell;
+  width: 49%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.tier2 #container-content #wrapper #content #layouttable #row #blank {
+  background: #ffffff;
+  display: table-cell;
+  padding: 8px;
+}

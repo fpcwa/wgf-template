@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* WGF Template CSS
+
+To assist with developer/designer usability, the CSS for these templates has been split up into multiple files.
+
+This is to save work, having to figure out what is where, and scrolling through long files to find ID's to update, edit and change.
+*/
+
+@import url("text.css");
+@import url("images.css");
+@import url("layout-core.css");
+@import url("layout-menu-top.css");
+@import url("layout-homepage.css");
+@import url("layout-homepage-rotating-panel.css");
+/* NB: Breadcrumb trail within layout-internal.css still to be completed */
+/* NB: layout-print.css still to be completed */
+
+/* IE specific CSS */
+/* This fixes issues in IE6 and IE7 where they do not render websites in a standards-based model */
+
+/* Cannot be imported using this CSS file, and instead must be specified in the page META elements */
+
+
+/* jQuery CSS */
+
+/* If you intend to use jQuery in your site, please reference all the relevant CSS files using the CSS import method here, to ensure these elements are easily available to all pages within the site without having to update code or templates. */

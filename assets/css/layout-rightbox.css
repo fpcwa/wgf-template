@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- TIER2 CONTENT: RIGHTBOX POSITIONING ----*/
+.tier2 #container-content #wrapper #content #rightbox {
+  background: #FFFFFF;
+  float: right;
+  left: 0px;
+  top: 5px;
+  width: 150px;
+}
+
+.tier2 #container-content #wrapper #content #rightbox_shaded {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+.tier2 #container-content #wrapper #content #rightbox_shaded_large {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.tier2 #rightbox_image_small {
+  background: #f4e8d1;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 210px;
+}
+
+.tier2 #rightbox_image {
+  background: #FFFFFF;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
